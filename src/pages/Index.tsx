@@ -14,12 +14,12 @@ const Index = () => {
   // Set dark theme and proper title
   useEffect(() => {
     document.body.classList.add('bg-cyberpunk');
-    document.title = "AD MAKER GPT | AI-Powered Ad Creation";
+    document.title = "Ad Maker GPT & Logo Generator GPT | AIWebTools.ai";
     
     // Update meta description
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
-      metaDescription.setAttribute('content', 'AD MAKER GPT creates breathtaking, high-quality, personalized advertisements using GPT-4o image generation technology.');
+      metaDescription.setAttribute('content', 'AIWebTools.ai offers powerful AI tools: Ad Maker GPT creates breathtaking advertisements and Logo Generator GPT designs professional logos using GPT-4o image generation technology.');
     }
     
     return () => {
