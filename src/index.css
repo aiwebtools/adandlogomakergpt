@@ -79,9 +79,10 @@
   }
 
   .cyberpunk-button {
-    @apply relative inline-flex items-center justify-center px-6 py-3 overflow-hidden font-mono font-medium tracking-tighter text-white bg-cyberpunk-muted border border-cyberpunk-secondary/50 rounded-lg group;
+    @apply relative inline-flex items-center justify-center px-6 py-3 overflow-hidden font-mono font-medium tracking-tighter text-white bg-cyberpunk-muted border border-cyberpunk-secondary/50 rounded-lg;
   }
 
+  /* Fixed: Removed 'group' from @apply and added it as a class in HTML */
   .cyberpunk-button:before {
     @apply absolute w-full h-full scale-x-0 origin-right transition-transform duration-300 ease-out bg-gradient-to-l from-cyberpunk-primary to-cyberpunk-accent;
     content: '';
