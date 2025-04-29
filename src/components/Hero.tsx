@@ -4,7 +4,7 @@ import { Sparkles } from 'lucide-react';
 
 const Hero: React.FC = () => {
   return (
-    <section className="pt-32 pb-20 md:py-36 relative overflow-hidden">
+    <section className="pt-36 pb-20 md:pt-40 md:py-36 relative overflow-hidden">
       <div className="container mx-auto px-4 relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="text-left">
