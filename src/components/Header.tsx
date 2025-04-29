@@ -49,7 +49,7 @@ const Header: React.FC = () => {
         <nav className="hidden md:flex items-center space-x-6">
           <a 
             href="https://chatgpt.com/g/g-6810ea3238888191a084c4f20b40225f-ad-maker-gpt"
-            className="cyberpunk-button"
+            className="cyberpunk-button group"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -87,7 +87,7 @@ const Header: React.FC = () => {
         <div className="container mx-auto px-4 py-4 flex flex-col space-y-4">
           <a 
             href="https://chatgpt.com/g/g-6810ea3238888191a084c4f20b40225f-ad-maker-gpt"
-            className="cyberpunk-button w-full text-center py-2"
+            className="cyberpunk-button group w-full text-center py-2"
             target="_blank"
             rel="noopener noreferrer"
             onClick={() => setIsMobileMenuOpen(false)}

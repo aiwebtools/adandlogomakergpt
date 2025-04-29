@@ -23,7 +23,7 @@ const Hero: React.FC = () => {
             <div className="flex flex-col sm:flex-row gap-4">
               <a 
                 href="https://chatgpt.com/g/g-6810ea3238888191a084c4f20b40225f-ad-maker-gpt"
-                className="cyberpunk-button"
+                className="cyberpunk-button group"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -46,7 +46,7 @@ const Hero: React.FC = () => {
             </p>
           </div>
           
-          <div className="relative">
+          <div className="relative md:mt-0 mt-8">
             <div className="aspect-square max-w-md mx-auto relative cyberpunk-border p-1 rounded-lg overflow-hidden animate-float">
               <div className="bg-gradient-to-br from-cyberpunk-primary/20 to-cyberpunk-secondary/20 w-full h-full rounded-lg flex items-center justify-center">
                 <div className="text-center p-6">
