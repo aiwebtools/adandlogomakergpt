@@ -22,6 +22,16 @@ const Footer: React.FC = () => {
               </li>
               <li>
                 <a 
+                  href="https://chatgpt.com/g/g-ICcKk0tgw-creative-logo-generator-and-assistant"
+                  className="text-cyberpunk-foreground hover:text-cyberpunk-primary transition-colors"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  LOGO GENERATOR GPT
+                </a>
+              </li>
+              <li>
+                <a 
                   href="#faq" 
                   className="text-cyberpunk-foreground hover:text-cyberpunk-primary transition-colors"
                 >

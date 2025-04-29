@@ -56,6 +56,14 @@ const Header: React.FC = () => {
             <span>USE AD MAKER GPT</span>
           </a>
           <a 
+            href="https://chatgpt.com/g/g-ICcKk0tgw-creative-logo-generator-and-assistant"
+            className="cyberpunk-button group"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span>LOGO GENERATOR GPT</span>
+          </a>
+          <a 
             href="#faq" 
             className="text-cyberpunk-foreground hover:text-cyberpunk-primary transition-colors"
           >
@@ -93,6 +101,15 @@ const Header: React.FC = () => {
             onClick={() => setIsMobileMenuOpen(false)}
           >
             <span>USE AD MAKER GPT</span>
+          </a>
+          <a 
+            href="https://chatgpt.com/g/g-ICcKk0tgw-creative-logo-generator-and-assistant"
+            className="cyberpunk-button group w-full text-center py-2"
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={() => setIsMobileMenuOpen(false)}
+          >
+            <span>LOGO GENERATOR GPT</span>
           </a>
           <a 
             href="#faq" 
