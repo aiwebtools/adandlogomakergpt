@@ -46,8 +46,14 @@ const Hero: React.FC = () => {
             </p>
           </div>
           
-          <div className="relative md:mt-0 mt-8">
-            <div className="aspect-square max-w-md mx-auto relative cyberpunk-border p-1 rounded-lg overflow-hidden animate-float">
+          <div className="relative md:mt-0 mt-8 grid grid-cols-1 md:grid-cols-2 gap-6">
+            {/* AD MAKER GPT Card */}
+            <a 
+              href="https://chatgpt.com/g/g-6810ea3238888191a084c4f20b40225f-ad-maker-gpt"
+              target="_blank"
+              rel="noopener noreferrer" 
+              className="aspect-square relative cyberpunk-border p-1 rounded-lg overflow-hidden animate-float hover:shadow-neon-primary transition-shadow duration-300"
+            >
               <div className="bg-gradient-to-br from-cyberpunk-primary/20 to-cyberpunk-secondary/20 w-full h-full rounded-lg flex items-center justify-center">
                 <div className="text-center p-6">
                   <div className="w-20 h-20 mx-auto mb-6 relative">
@@ -83,7 +89,51 @@ const Hero: React.FC = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </a>
+
+            {/* LOGO GENERATOR GPT Card */}
+            <a 
+              href="https://chatgpt.com/g/g-ICcKk0tgw-creative-logo-generator-and-assistant"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="aspect-square relative cyberpunk-border p-1 rounded-lg overflow-hidden animate-float hover:shadow-neon-accent transition-shadow duration-300"
+            >
+              <div className="bg-gradient-to-br from-cyberpunk-accent/20 to-cyberpunk-secondary/20 w-full h-full rounded-lg flex items-center justify-center">
+                <div className="text-center p-6">
+                  <div className="w-20 h-20 mx-auto mb-6 relative">
+                    {/* Hexagon shape base */}
+                    <div className="absolute inset-0 bg-cyberpunk-muted border-2 border-cyberpunk-accent shadow-neon-accent animate-pulse-glow"
+                         style={{ clipPath: 'polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)' }}>
+                    </div>
+                    
+                    {/* Inner light effect */}
+                    <div className="absolute inset-3 bg-gradient-to-br from-cyberpunk-accent/40 to-cyberpunk-secondary/40"
+                         style={{ clipPath: 'polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)' }}>
+                    </div>
+                    
+                    {/* Text LOGO */}
+                    <div className="absolute inset-0 flex items-center justify-center text-cyberpunk-foreground font-bold text-base font-mono neon-text-accent">
+                      LOGO
+                    </div>
+                  </div>
+                  
+                  <h3 className="text-2xl font-bold neon-text-accent mb-2">LOGO GENERATOR GPT</h3>
+                  <p className="text-cyberpunk-foreground mb-4">Professional Logo Design</p>
+                  
+                  <div className="space-y-3">
+                    <div className="text-sm p-2 border border-cyberpunk-accent/20 rounded bg-cyberpunk-muted/50">
+                      Custom Brand Identity
+                    </div>
+                    <div className="text-sm p-2 border border-cyberpunk-primary/20 rounded bg-cyberpunk-muted/50">
+                      Multiple Style Options
+                    </div>
+                    <div className="text-sm p-2 border border-cyberpunk-secondary/20 rounded bg-cyberpunk-muted/50">
+                      Ready To Use Designs
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
             
             {/* Decorative elements */}
             <div className="absolute -top-5 -right-5 w-20 h-20 border-t-2 border-r-2 border-cyberpunk-primary opacity-60"></div>
@@ -96,6 +146,7 @@ const Hero: React.FC = () => {
       <div className="absolute inset-0 bg-cyberpunk-grid bg-[size:50px_50px] opacity-20"></div>
       <div className="absolute top-20 left-10 w-72 h-72 bg-cyberpunk-primary/10 rounded-full filter blur-[80px]"></div>
       <div className="absolute bottom-20 right-10 w-72 h-72 bg-cyberpunk-secondary/10 rounded-full filter blur-[80px]"></div>
+      <div className="absolute top-40 right-20 w-72 h-72 bg-cyberpunk-accent/10 rounded-full filter blur-[80px]"></div>
     </section>
   );
 };
