@@ -46,7 +46,7 @@ const Header: React.FC = () => {
         </div>
         
         {/* Desktop Navigation */}
-        <nav className="hidden md:flex items-center space-x-6">
+        <nav className="hidden md:flex items-center space-x-4">
           <a 
             href="https://chatgpt.com/g/g-6810ea3238888191a084c4f20b40225f-ad-maker-gpt"
             className="cyberpunk-button group"
@@ -62,6 +62,22 @@ const Header: React.FC = () => {
             rel="noopener noreferrer"
           >
             <span>LOGO GENERATOR GPT</span>
+          </a>
+          <a 
+            href="https://productphotographygpt.lovable.app/?via=aiwebtools"
+            className="cyberpunk-button group"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span>PRODUCT PHOTOGRAPHY GPT</span>
+          </a>
+          <a 
+            href="https://graphicdesigngpt.lovable.app/?via=aiwebtools"
+            className="cyberpunk-button group"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span>GRAPHIC & COVER DESIGN GPT</span>
           </a>
           <a 
             href="#faq" 
@@ -110,6 +126,24 @@ const Header: React.FC = () => {
             onClick={() => setIsMobileMenuOpen(false)}
           >
             <span>LOGO GENERATOR GPT</span>
+          </a>
+          <a 
+            href="https://productphotographygpt.lovable.app/?via=aiwebtools"
+            className="cyberpunk-button group w-full text-center py-2"
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={() => setIsMobileMenuOpen(false)}
+          >
+            <span>PRODUCT PHOTOGRAPHY GPT</span>
+          </a>
+          <a 
+            href="https://graphicdesigngpt.lovable.app/?via=aiwebtools"
+            className="cyberpunk-button group w-full text-center py-2"
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={() => setIsMobileMenuOpen(false)}
+          >
+            <span>GRAPHIC & COVER DESIGN GPT</span>
           </a>
           <a 
             href="#faq" 

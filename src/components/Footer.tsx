@@ -32,6 +32,26 @@ const Footer: React.FC = () => {
               </li>
               <li>
                 <a 
+                  href="https://productphotographygpt.lovable.app/?via=aiwebtools"
+                  className="text-cyberpunk-foreground hover:text-cyberpunk-primary transition-colors"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  PRODUCT PHOTOGRAPHY GPT
+                </a>
+              </li>
+              <li>
+                <a 
+                  href="https://graphicdesigngpt.lovable.app/?via=aiwebtools"
+                  className="text-cyberpunk-foreground hover:text-cyberpunk-primary transition-colors"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  GRAPHIC & COVER DESIGN GPT
+                </a>
+              </li>
+              <li>
+                <a 
                   href="#faq" 
                   className="text-cyberpunk-foreground hover:text-cyberpunk-primary transition-colors"
                 >
