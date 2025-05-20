@@ -19,7 +19,7 @@ const Index = () => {
     // Update meta description
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
-      metaDescription.setAttribute('content', 'AIWebTools.ai offers powerful AI tools: Ad Maker GPT creates breathtaking advertisements and Logo Generator GPT designs professional logos using GPT-4o image generation technology.');
+      metaDescription.setAttribute('content', 'Create professional ads and logos instantly with our AI-powered tools. Ad Maker GPT generates stunning advertisements while Logo Generator GPT designs custom logos using GPT-4o technology.');
     }
     
     return () => {
