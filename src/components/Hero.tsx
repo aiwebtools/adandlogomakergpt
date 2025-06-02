@@ -47,7 +47,7 @@ const Hero: React.FC = () => {
               
               <a 
                 href="#how-it-works" 
-                className="inline-flex items-center justify-center px-8 py-4 border-2 border-cyberpunk-secondary/60 text-cyberpunk-secondary rounded-lg hover:bg-cyberpunk-secondary/20 hover:shadow-neon-secondary transition-all duration-300 hover:scale-105"
+                className="inline-flex items-center justify-center px-8 py-4 border-2 border-cyberpunk-secondary/60 text-cyberpunk-secondary rounded-lg hover:bg-cyberpunk-secondary/20 hover:shadow-neon-secondary transition-all duration-300"
               >
                 Learn How It Works
               </a>
@@ -70,7 +70,7 @@ const Hero: React.FC = () => {
               href="https://chatgpt.com/g/g-6810ea3238888191a084c4f20b40225f-ad-maker-gpt"
               target="_blank"
               rel="noopener noreferrer" 
-              className="aspect-square relative cyberpunk-border p-2 rounded-lg overflow-hidden animate-divine-float hover:shadow-divine transition-all duration-500 hover:scale-105"
+              className="aspect-square relative cyberpunk-border p-2 rounded-lg overflow-hidden animate-divine-float hover:shadow-divine transition-all duration-500"
             >
               <div className="bg-gradient-to-br from-cyberpunk-primary/30 to-cyberpunk-secondary/30 w-full h-full rounded-lg flex items-center justify-center relative overflow-hidden">
                 {/* Shimmer effect */}
@@ -115,7 +115,7 @@ const Hero: React.FC = () => {
               href="https://chatgpt.com/g/g-ICcKk0tgw-creative-logo-generator-and-assistant"
               target="_blank"
               rel="noopener noreferrer"
-              className="aspect-square relative cyberpunk-border p-2 rounded-lg overflow-hidden animate-divine-float hover:shadow-divine transition-all duration-500 hover:scale-105 animation-delay-1000"
+              className="aspect-square relative cyberpunk-border p-2 rounded-lg overflow-hidden animate-divine-float hover:shadow-divine transition-all duration-500 animation-delay-1000"
             >
               <div className="bg-gradient-to-br from-cyberpunk-accent/30 to-cyberpunk-secondary/30 w-full h-full rounded-lg flex items-center justify-center relative overflow-hidden">
                 {/* Shimmer effect */}
