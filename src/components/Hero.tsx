@@ -4,41 +4,59 @@ import { Sparkles } from 'lucide-react';
 
 const Hero: React.FC = () => {
   return (
-    <section className="pt-36 pb-20 md:pt-40 md:py-36 relative overflow-hidden">
-      <div className="container mx-auto px-4 relative z-10">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-          <div className="text-left">
-            <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
+    <section className="pt-44 pb-32 md:pt-48 md:py-44 relative overflow-hidden">
+      {/* Enhanced divine background with floating particles */}
+      <div className="absolute inset-0">
+        <div className="absolute top-1/4 left-1/4 w-4 h-4 bg-cyberpunk-primary rounded-full animate-cosmic-drift opacity-60"></div>
+        <div className="absolute top-1/2 right-1/4 w-3 h-3 bg-cyberpunk-secondary rounded-full animate-celestial-dance opacity-70"></div>
+        <div className="absolute bottom-1/3 left-1/3 w-2 h-2 bg-cyberpunk-accent rounded-full animate-divine-float opacity-80"></div>
+        <div className="absolute top-3/4 right-1/3 w-3 h-3 bg-cyberpunk-primary rounded-full animate-holy-pulse opacity-50"></div>
+        <div className="absolute bottom-1/4 left-1/2 w-2 h-2 bg-cyberpunk-secondary rounded-full animate-divine-glow opacity-60"></div>
+        <div className="absolute top-1/6 right-1/6 w-1 h-1 bg-cyberpunk-accent rounded-full animate-celestial-dance opacity-90"></div>
+        <div className="absolute bottom-1/6 left-1/6 w-1 h-1 bg-cyberpunk-primary rounded-full animate-cosmic-drift opacity-70"></div>
+      </div>
+
+      <div className="container mx-auto px-6 relative z-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+          <div className="text-left space-y-8">
+            <h1 className="text-5xl md:text-7xl font-bold mb-8 leading-tight">
               Create 
-              <span className="neon-text-primary"> Breathtaking </span> 
+              <span className="neon-text-primary block mt-2"> Breathtaking </span> 
               Ads with
-              <span className="neon-text-secondary"> AI </span>
+              <span className="neon-text-secondary block mt-2"> AI </span>
               Power
             </h1>
             
-            <p className="text-xl mb-8 text-cyberpunk-foreground/80">
+            <p className="text-xl md:text-2xl mb-10 text-cyberpunk-foreground/90 leading-relaxed">
               AD MAKER GPT transforms your ideas into high-quality, personalized advertisements in seconds using cutting-edge GPT-4o image generation technology.
             </p>
             
-            <div className="flex flex-col sm:flex-row gap-4">
+            <div className="flex flex-col sm:flex-row gap-6">
               <a 
                 href="https://chatgpt.com/g/g-6810ea3238888191a084c4f20b40225f-ad-maker-gpt"
-                className="cyberpunk-button group"
+                className="cyberpunk-button group relative overflow-hidden"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <span className="flex items-center">
-                  <Sparkles className="mr-2" size={18} />
+                <div className="absolute inset-0 bg-divine-gradient opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
+                <span className="flex items-center relative z-10">
+                  <Sparkles className="mr-3 animate-ethereal-flicker" size={20} />
                   START CREATING NOW
                 </span>
               </a>
               
               <a 
                 href="#how-it-works" 
-                className="inline-flex items-center justify-center px-6 py-3 border border-cyberpunk-secondary/50 text-cyberpunk-secondary rounded-lg hover:bg-cyberpunk-secondary/10 transition-colors"
+                className="inline-flex items-center justify-center px-8 py-4 border-2 border-cyberpunk-secondary/60 text-cyberpunk-secondary rounded-lg hover:bg-cyberpunk-secondary/20 hover:shadow-neon-secondary transition-all duration-300 hover:scale-105"
               >
                 Learn How It Works
               </a>
+            </div>
+            
+            <div className="mt-8 p-4 border border-cyberpunk-accent/30 rounded-lg bg-cyberpunk-muted/20 backdrop-blur-sm">
+              <p className="text-cyberpunk-foreground/70 text-sm leading-relaxed">
+                <span className="neon-text-accent font-semibold">Educational Disclaimer:</span> This website and its tools are provided for informational, educational, and research purposes only.
+              </p>
             </div>
             
             <p className="mt-6 text-cyberpunk-foreground/60 text-sm">
@@ -46,44 +64,45 @@ const Hero: React.FC = () => {
             </p>
           </div>
           
-          <div className="relative md:mt-0 mt-8 grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="relative md:mt-0 mt-12 grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* AD MAKER GPT Card */}
             <a 
               href="https://chatgpt.com/g/g-6810ea3238888191a084c4f20b40225f-ad-maker-gpt"
               target="_blank"
               rel="noopener noreferrer" 
-              className="aspect-square relative cyberpunk-border p-1 rounded-lg overflow-hidden animate-float hover:shadow-neon-primary transition-shadow duration-300"
+              className="aspect-square relative cyberpunk-border p-2 rounded-lg overflow-hidden animate-divine-float hover:shadow-divine transition-all duration-500 hover:scale-105"
             >
-              <div className="bg-gradient-to-br from-cyberpunk-primary/20 to-cyberpunk-secondary/20 w-full h-full rounded-lg flex items-center justify-center">
-                <div className="text-center p-6">
-                  <div className="w-20 h-20 mx-auto mb-6 relative">
-                    {/* Hexagon shape base */}
-                    <div className="absolute inset-0 bg-cyberpunk-muted border-2 border-cyberpunk-secondary shadow-neon-secondary animate-pulse-glow"
+              <div className="bg-gradient-to-br from-cyberpunk-primary/30 to-cyberpunk-secondary/30 w-full h-full rounded-lg flex items-center justify-center relative overflow-hidden">
+                {/* Shimmer effect */}
+                <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent animate-divine-shimmer"></div>
+                
+                <div className="text-center p-6 relative z-10">
+                  <div className="w-24 h-24 mx-auto mb-8 relative">
+                    {/* Enhanced hexagon with divine glow */}
+                    <div className="absolute inset-0 bg-cyberpunk-muted border-2 border-cyberpunk-secondary shadow-neon-secondary animate-divine-glow"
                          style={{ clipPath: 'polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)' }}>
                     </div>
                     
-                    {/* Inner light effect */}
-                    <div className="absolute inset-3 bg-gradient-to-br from-cyberpunk-secondary/40 to-cyberpunk-primary/40"
+                    <div className="absolute inset-2 bg-gradient-to-br from-cyberpunk-secondary/50 to-cyberpunk-primary/50 animate-holy-pulse"
                          style={{ clipPath: 'polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)' }}>
                     </div>
                     
-                    {/* Text AD */}
-                    <div className="absolute inset-0 flex items-center justify-center text-cyberpunk-foreground font-bold text-base font-mono neon-text-secondary">
+                    <div className="absolute inset-0 flex items-center justify-center text-cyberpunk-foreground font-bold text-lg font-mono neon-text-secondary">
                       AD
                     </div>
                   </div>
                   
-                  <h3 className="text-2xl font-bold neon-text-secondary mb-2">AD MAKER GPT</h3>
-                  <p className="text-cyberpunk-foreground mb-4">Limitless Ad Creation Power</p>
+                  <h3 className="text-2xl font-bold neon-text-secondary mb-3">AD MAKER GPT</h3>
+                  <p className="text-cyberpunk-foreground mb-6 text-sm">Limitless Ad Creation Power</p>
                   
                   <div className="space-y-3">
-                    <div className="text-sm p-2 border border-cyberpunk-secondary/20 rounded bg-cyberpunk-muted/50">
+                    <div className="text-xs p-3 border border-cyberpunk-secondary/30 rounded bg-cyberpunk-muted/60 backdrop-blur-sm">
                       5 Stunning Ad Variations
                     </div>
-                    <div className="text-sm p-2 border border-cyberpunk-primary/20 rounded bg-cyberpunk-muted/50">
+                    <div className="text-xs p-3 border border-cyberpunk-primary/30 rounded bg-cyberpunk-muted/60 backdrop-blur-sm">
                       Professional Design
                     </div>
-                    <div className="text-sm p-2 border border-cyberpunk-accent/20 rounded bg-cyberpunk-muted/50">
+                    <div className="text-xs p-3 border border-cyberpunk-accent/30 rounded bg-cyberpunk-muted/60 backdrop-blur-sm">
                       Instant Generation
                     </div>
                   </div>
@@ -96,38 +115,38 @@ const Hero: React.FC = () => {
               href="https://chatgpt.com/g/g-ICcKk0tgw-creative-logo-generator-and-assistant"
               target="_blank"
               rel="noopener noreferrer"
-              className="aspect-square relative cyberpunk-border p-1 rounded-lg overflow-hidden animate-float hover:shadow-neon-accent transition-shadow duration-300"
+              className="aspect-square relative cyberpunk-border p-2 rounded-lg overflow-hidden animate-divine-float hover:shadow-divine transition-all duration-500 hover:scale-105 animation-delay-1000"
             >
-              <div className="bg-gradient-to-br from-cyberpunk-accent/20 to-cyberpunk-secondary/20 w-full h-full rounded-lg flex items-center justify-center">
-                <div className="text-center p-6">
-                  <div className="w-20 h-20 mx-auto mb-6 relative">
-                    {/* Hexagon shape base */}
-                    <div className="absolute inset-0 bg-cyberpunk-muted border-2 border-cyberpunk-accent shadow-neon-accent animate-pulse-glow"
+              <div className="bg-gradient-to-br from-cyberpunk-accent/30 to-cyberpunk-secondary/30 w-full h-full rounded-lg flex items-center justify-center relative overflow-hidden">
+                {/* Shimmer effect */}
+                <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent animate-divine-shimmer animation-delay-1000"></div>
+                
+                <div className="text-center p-6 relative z-10">
+                  <div className="w-24 h-24 mx-auto mb-8 relative">
+                    <div className="absolute inset-0 bg-cyberpunk-muted border-2 border-cyberpunk-accent shadow-neon-accent animate-divine-glow"
                          style={{ clipPath: 'polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)' }}>
                     </div>
                     
-                    {/* Inner light effect */}
-                    <div className="absolute inset-3 bg-gradient-to-br from-cyberpunk-accent/40 to-cyberpunk-secondary/40"
+                    <div className="absolute inset-2 bg-gradient-to-br from-cyberpunk-accent/50 to-cyberpunk-secondary/50 animate-holy-pulse"
                          style={{ clipPath: 'polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)' }}>
                     </div>
                     
-                    {/* Text LOGO */}
-                    <div className="absolute inset-0 flex items-center justify-center text-cyberpunk-foreground font-bold text-base font-mono neon-text-accent">
+                    <div className="absolute inset-0 flex items-center justify-center text-cyberpunk-foreground font-bold text-lg font-mono neon-text-accent">
                       LOGO
                     </div>
                   </div>
                   
-                  <h3 className="text-2xl font-bold neon-text-accent mb-2">LOGO GENERATOR GPT</h3>
-                  <p className="text-cyberpunk-foreground mb-4">Professional Logo Design</p>
+                  <h3 className="text-2xl font-bold neon-text-accent mb-3">LOGO GENERATOR GPT</h3>
+                  <p className="text-cyberpunk-foreground mb-6 text-sm">Professional Logo Design</p>
                   
                   <div className="space-y-3">
-                    <div className="text-sm p-2 border border-cyberpunk-accent/20 rounded bg-cyberpunk-muted/50">
+                    <div className="text-xs p-3 border border-cyberpunk-accent/30 rounded bg-cyberpunk-muted/60 backdrop-blur-sm">
                       Custom Brand Identity
                     </div>
-                    <div className="text-sm p-2 border border-cyberpunk-primary/20 rounded bg-cyberpunk-muted/50">
+                    <div className="text-xs p-3 border border-cyberpunk-primary/30 rounded bg-cyberpunk-muted/60 backdrop-blur-sm">
                       Multiple Style Options
                     </div>
-                    <div className="text-sm p-2 border border-cyberpunk-secondary/20 rounded bg-cyberpunk-muted/50">
+                    <div className="text-xs p-3 border border-cyberpunk-secondary/30 rounded bg-cyberpunk-muted/60 backdrop-blur-sm">
                       Ready To Use Designs
                     </div>
                   </div>
@@ -135,18 +154,19 @@ const Hero: React.FC = () => {
               </div>
             </a>
             
-            {/* Decorative elements */}
-            <div className="absolute -top-5 -right-5 w-20 h-20 border-t-2 border-r-2 border-cyberpunk-primary opacity-60"></div>
-            <div className="absolute -bottom-5 -left-5 w-20 h-20 border-b-2 border-l-2 border-cyberpunk-secondary opacity-60"></div>
+            {/* Enhanced decorative elements */}
+            <div className="absolute -top-8 -right-8 w-32 h-32 border-t-4 border-r-4 border-cyberpunk-primary opacity-60 animate-ethereal-flicker"></div>
+            <div className="absolute -bottom-8 -left-8 w-32 h-32 border-b-4 border-l-4 border-cyberpunk-secondary opacity-60 animate-divine-glow"></div>
+            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-16 h-16 border-2 border-cyberpunk-accent opacity-40 animate-celestial-dance"></div>
           </div>
         </div>
       </div>
       
-      {/* Background decorative elements */}
-      <div className="absolute inset-0 bg-cyberpunk-grid bg-[size:50px_50px] opacity-20"></div>
-      <div className="absolute top-20 left-10 w-72 h-72 bg-cyberpunk-primary/10 rounded-full filter blur-[80px]"></div>
-      <div className="absolute bottom-20 right-10 w-72 h-72 bg-cyberpunk-secondary/10 rounded-full filter blur-[80px]"></div>
-      <div className="absolute top-40 right-20 w-72 h-72 bg-cyberpunk-accent/10 rounded-full filter blur-[80px]"></div>
+      {/* Enhanced background decorative elements */}
+      <div className="absolute inset-0 bg-cyberpunk-grid bg-[size:80px_80px] opacity-20 animate-holy-pulse"></div>
+      <div className="absolute top-20 left-20 w-96 h-96 bg-cyberpunk-primary/15 rounded-full filter blur-[120px] animate-cosmic-drift"></div>
+      <div className="absolute bottom-20 right-20 w-96 h-96 bg-cyberpunk-secondary/15 rounded-full filter blur-[120px] animate-celestial-dance"></div>
+      <div className="absolute top-60 right-40 w-96 h-96 bg-cyberpunk-accent/15 rounded-full filter blur-[120px] animate-divine-float"></div>
     </section>
   );
 };

@@ -5,6 +5,15 @@ import { AlertCircleIcon } from 'lucide-react';
 const Disclaimer: React.FC = () => {
   return (
     <section id="disclaimer" className="py-20 relative overflow-hidden">
+      {/* Enhanced animated background */}
+      <div className="absolute inset-0">
+        <div className="absolute top-0 left-0 w-full h-full bg-cyberpunk-grid bg-[size:50px_50px] opacity-10 animate-pulse"></div>
+        <div className="absolute top-1/4 left-1/4 w-3 h-3 bg-cyberpunk-primary rounded-full animate-ping opacity-40"></div>
+        <div className="absolute top-3/4 right-1/4 w-2 h-2 bg-cyberpunk-secondary rounded-full animate-bounce opacity-50"></div>
+        <div className="absolute top-1/2 left-1/3 w-1 h-1 bg-cyberpunk-accent rounded-full animate-pulse opacity-60"></div>
+        <div className="absolute bottom-1/4 right-1/3 w-2 h-2 bg-cyberpunk-primary rounded-full animate-ping opacity-30 animation-delay-1000"></div>
+      </div>
+
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
@@ -16,7 +25,7 @@ const Disclaimer: React.FC = () => {
           </p>
         </div>
 
-        <div className="max-w-4xl mx-auto bg-cyberpunk-muted/30 backdrop-blur-sm rounded-lg p-8 cyberpunk-border">
+        <div className="max-w-4xl mx-auto bg-cyberpunk-muted/30 backdrop-blur-sm rounded-lg p-8 cyberpunk-border shadow-2xl">
           <div className="space-y-6 text-cyberpunk-foreground/80">
             <p>
               <strong>General Disclaimer:</strong> AD MAKER GPT is provided "as is" without warranties of any kind, either express or implied. AI WEB TOOLS LLC does not warrant that the service will be uninterrupted or error-free. Your use of AD MAKER GPT is at your own risk.
@@ -47,14 +56,11 @@ const Disclaimer: React.FC = () => {
             </p>
             
             <p>
-              <strong>User Agreement:</strong> By accessing and using AD MAKER GPT, you agree to be bound by the terms of this disclaimer as well as our <a href="https://aiwebtools.ai/terms-of-services" className="text-cyberpunk-secondary hover:underline" target="_blank" rel="noopener noreferrer">Terms of Service</a> and <a href="https://openai.com/policies/privacy-policy/" className="text-cyberpunk-secondary hover:underline" target="_blank" rel="noopener noreferrer">Privacy Policy</a>.
+              <strong>User Agreement:</strong> By accessing and using AD MAKER GPT, you agree to be bound by the terms of this disclaimer as well as our <a href="https://aiwebtools.lovable.app/disclaimers" className="text-cyberpunk-secondary hover:underline" target="_blank" rel="noopener noreferrer">Terms of Service</a> and <a href="https://openai.com/policies/privacy-policy/" className="text-cyberpunk-secondary hover:underline" target="_blank" rel="noopener noreferrer">Privacy Policy</a>.
             </p>
           </div>
         </div>
       </div>
-      
-      {/* Background decorative elements */}
-      <div className="absolute inset-0 bg-cyberpunk-grid bg-[size:50px_50px] opacity-10"></div>
     </section>
   );
 };
