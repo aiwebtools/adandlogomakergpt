@@ -70,11 +70,11 @@ const Hero: React.FC = () => {
               href="https://chatgpt.com/g/g-6810ea3238888191a084c4f20b40225f-ad-maker-gpt"
               target="_blank"
               rel="noopener noreferrer" 
-              className="aspect-square relative cyberpunk-border p-2 rounded-lg overflow-hidden animate-divine-float hover:shadow-divine transition-all duration-500"
+              className="aspect-square relative cyberpunk-border p-2 rounded-lg overflow-hidden hover:shadow-divine transition-all duration-500"
             >
-              <div className="bg-gradient-to-br from-cyberpunk-primary/30 to-cyberpunk-secondary/30 w-full h-full rounded-lg flex items-center justify-center relative overflow-hidden">
+              <div className="bg-cyberpunk-muted/90 backdrop-blur-md border border-cyberpunk-secondary/30 w-full h-full rounded-lg flex items-center justify-center relative overflow-hidden">
                 {/* Shimmer effect */}
-                <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent animate-divine-shimmer"></div>
+                <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/5 to-transparent animate-divine-shimmer"></div>
                 
                 <div className="text-center p-6 relative z-10">
                   <div className="w-24 h-24 mx-auto mb-8 relative">
@@ -87,22 +87,22 @@ const Hero: React.FC = () => {
                          style={{ clipPath: 'polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)' }}>
                     </div>
                     
-                    <div className="absolute inset-0 flex items-center justify-center text-cyberpunk-foreground font-bold text-lg font-mono neon-text-secondary">
+                    <div className="absolute inset-0 flex items-center justify-center text-white font-bold text-lg font-mono drop-shadow-lg">
                       AD
                     </div>
                   </div>
                   
-                  <h3 className="text-2xl font-bold neon-text-secondary mb-3">AD MAKER GPT</h3>
-                  <p className="text-cyberpunk-foreground mb-6 text-sm">Limitless Ad Creation Power</p>
+                  <h3 className="text-2xl font-bold text-cyberpunk-secondary mb-3 drop-shadow-lg">AD MAKER GPT</h3>
+                  <p className="text-white/90 mb-6 text-sm font-medium drop-shadow-md">Limitless Ad Creation Power</p>
                   
                   <div className="space-y-3">
-                    <div className="text-xs p-3 border border-cyberpunk-secondary/30 rounded bg-cyberpunk-muted/60 backdrop-blur-sm">
+                    <div className="text-xs p-3 border border-cyberpunk-secondary/50 rounded bg-cyberpunk-muted/80 backdrop-blur-sm text-white/90 font-medium">
                       5 Stunning Ad Variations
                     </div>
-                    <div className="text-xs p-3 border border-cyberpunk-primary/30 rounded bg-cyberpunk-muted/60 backdrop-blur-sm">
+                    <div className="text-xs p-3 border border-cyberpunk-primary/50 rounded bg-cyberpunk-muted/80 backdrop-blur-sm text-white/90 font-medium">
                       Professional Design
                     </div>
-                    <div className="text-xs p-3 border border-cyberpunk-accent/30 rounded bg-cyberpunk-muted/60 backdrop-blur-sm">
+                    <div className="text-xs p-3 border border-cyberpunk-accent/50 rounded bg-cyberpunk-muted/80 backdrop-blur-sm text-white/90 font-medium">
                       Instant Generation
                     </div>
                   </div>
@@ -115,11 +115,11 @@ const Hero: React.FC = () => {
               href="https://chatgpt.com/g/g-ICcKk0tgw-creative-logo-generator-and-assistant"
               target="_blank"
               rel="noopener noreferrer"
-              className="aspect-square relative cyberpunk-border p-2 rounded-lg overflow-hidden animate-divine-float hover:shadow-divine transition-all duration-500 animation-delay-1000"
+              className="aspect-square relative cyberpunk-border p-2 rounded-lg overflow-hidden hover:shadow-divine transition-all duration-500 animation-delay-1000"
             >
-              <div className="bg-gradient-to-br from-cyberpunk-accent/30 to-cyberpunk-secondary/30 w-full h-full rounded-lg flex items-center justify-center relative overflow-hidden">
+              <div className="bg-cyberpunk-muted/90 backdrop-blur-md border border-cyberpunk-accent/30 w-full h-full rounded-lg flex items-center justify-center relative overflow-hidden">
                 {/* Shimmer effect */}
-                <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent animate-divine-shimmer animation-delay-1000"></div>
+                <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/5 to-transparent animate-divine-shimmer animation-delay-1000"></div>
                 
                 <div className="text-center p-6 relative z-10">
                   <div className="w-24 h-24 mx-auto mb-8 relative">
@@ -131,22 +131,22 @@ const Hero: React.FC = () => {
                          style={{ clipPath: 'polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)' }}>
                     </div>
                     
-                    <div className="absolute inset-0 flex items-center justify-center text-cyberpunk-foreground font-bold text-lg font-mono neon-text-accent">
+                    <div className="absolute inset-0 flex items-center justify-center text-white font-bold text-lg font-mono drop-shadow-lg">
                       LOGO
                     </div>
                   </div>
                   
-                  <h3 className="text-2xl font-bold neon-text-accent mb-3">LOGO GENERATOR GPT</h3>
-                  <p className="text-cyberpunk-foreground mb-6 text-sm">Professional Logo Design</p>
+                  <h3 className="text-2xl font-bold text-cyberpunk-accent mb-3 drop-shadow-lg">LOGO GENERATOR GPT</h3>
+                  <p className="text-white/90 mb-6 text-sm font-medium drop-shadow-md">Professional Logo Design</p>
                   
                   <div className="space-y-3">
-                    <div className="text-xs p-3 border border-cyberpunk-accent/30 rounded bg-cyberpunk-muted/60 backdrop-blur-sm">
+                    <div className="text-xs p-3 border border-cyberpunk-accent/50 rounded bg-cyberpunk-muted/80 backdrop-blur-sm text-white/90 font-medium">
                       Custom Brand Identity
                     </div>
-                    <div className="text-xs p-3 border border-cyberpunk-primary/30 rounded bg-cyberpunk-muted/60 backdrop-blur-sm">
+                    <div className="text-xs p-3 border border-cyberpunk-primary/50 rounded bg-cyberpunk-muted/80 backdrop-blur-sm text-white/90 font-medium">
                       Multiple Style Options
                     </div>
-                    <div className="text-xs p-3 border border-cyberpunk-secondary/30 rounded bg-cyberpunk-muted/60 backdrop-blur-sm">
+                    <div className="text-xs p-3 border border-cyberpunk-secondary/50 rounded bg-cyberpunk-muted/80 backdrop-blur-sm text-white/90 font-medium">
                       Ready To Use Designs
                     </div>
                   </div>
