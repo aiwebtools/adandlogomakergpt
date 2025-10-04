@@ -14,12 +14,12 @@ const Index = () => {
   // Set dark theme and proper title with enhanced SEO
   useEffect(() => {
     document.body.classList.add('bg-cyberpunk');
-    document.title = "AI Web Tools - Ad Maker GPT & Logo Generator GPT | Best AI Tools for Marketing 2025";
+    document.title = "Ad Maker GPT & Logo Generator GPT - Create Professional Ads & Logos Instantly | AI Web Tools";
     
     // Update meta description with targeted keywords
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
-      metaDescription.setAttribute('content', 'AI Web Tools: Create professional ads and logos instantly with our AI-powered tools. Ad Maker GPT generates stunning advertisements while Logo Generator GPT designs custom logos using GPT-4o technology. Best AI tools for marketing in 2025.');
+      metaDescription.setAttribute('content', 'Ad Maker GPT creates stunning advertisements and Logo Generator GPT designs professional logos instantly using advanced GPT-4o AI technology. Transform your marketing with AI Web Tools - the best AI-powered design tools for businesses in 2025.');
     }
 
     // Add keywords meta tag
@@ -29,7 +29,7 @@ const Index = () => {
       keywordsMeta.setAttribute('name', 'keywords');
       document.head.appendChild(keywordsMeta);
     }
-    keywordsMeta.setAttribute('content', 'AI web tools, AI tools, ad maker GPT, logo generator GPT, AI marketing tools, artificial intelligence tools, GPT-4o image generation, AI advertisement creator, AI logo design, marketing automation, AI graphic design, digital marketing tools, AI-powered advertising, automated design tools, AI business tools');
+    keywordsMeta.setAttribute('content', 'ad maker GPT, logo generator GPT, AI web tools, AI tools, AI marketing tools, AI advertisement creator, AI logo design, GPT-4o image generation, create ads with AI, AI logo maker, professional ad creator, automated design tools, AI graphic design, digital marketing tools, AI business tools');
 
     // Add robots meta tag
     let robotsMeta = document.querySelector('meta[name="robots"]');
@@ -56,8 +56,8 @@ const Index = () => {
       "name": "AI Web Tools",
       "alternateName": "AIWebTools.ai",
       "url": "https://www.aiwebtools.ai",
-      "logo": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80",
-      "description": "AI Web Tools provides the best AI-powered marketing tools including Ad Maker GPT and Logo Generator GPT for creating professional advertisements and logos instantly.",
+      "logo": "https://www.aiwebtools.ai/favicon.png",
+      "description": "Ad Maker GPT creates stunning advertisements and Logo Generator GPT designs professional logos instantly using advanced GPT-4o AI technology. AI Web Tools provides the best AI-powered marketing and design tools for businesses.",
       "foundingDate": "2024",
       "sameAs": [
         "https://chatgpt.com/g/g-6810ea3238888191a084c4f20b40225f-ad-maker-gpt",
@@ -71,8 +71,8 @@ const Index = () => {
       },
       "offers": {
         "@type": "Offer",
-        "name": "AI Marketing Tools Suite",
-        "description": "Professional AI-powered tools for creating advertisements and logos"
+        "name": "Ad Maker GPT & Logo Generator GPT",
+        "description": "Ad Maker GPT creates professional advertisements instantly and Logo Generator GPT designs custom logos using advanced AI technology"
       }
     };
 
