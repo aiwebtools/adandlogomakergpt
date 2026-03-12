@@ -153,7 +153,7 @@ const Footer: React.FC = () => {
         <div className="mt-12 pt-6 border-t border-cyberpunk-border text-center">
           <p className="text-cyberpunk-foreground/60 text-sm">
             <a 
-              href="https://www.aiwebtools.ai"
+              href="https://aiwebtools.lovable.app/?via=aiwebtools"
               className="hover:text-cyberpunk-primary transition-colors"
               target="_blank"
               rel="noopener noreferrer"
