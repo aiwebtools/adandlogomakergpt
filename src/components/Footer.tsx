@@ -77,7 +77,7 @@ const Footer: React.FC = () => {
               </li>
               <li>
                 <a 
-                  href="https://www.aiwebtools.ai" 
+                  href="https://aiwebtools.lovable.app/?via=aiwebtools" 
                   className="text-cyberpunk-foreground hover:text-cyberpunk-primary transition-colors"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -104,7 +104,7 @@ const Footer: React.FC = () => {
               </li>
               <li>
                 <a 
-                  href="https://aiwebtools.lovable.app/disclaimers"
+                  href="https://aiwebtools.lovable.app/disclaimers?via=aiwebtools"
                   className="text-cyberpunk-foreground hover:text-cyberpunk-secondary transition-colors"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -153,7 +153,7 @@ const Footer: React.FC = () => {
         <div className="mt-12 pt-6 border-t border-cyberpunk-border text-center">
           <p className="text-cyberpunk-foreground/60 text-sm">
             <a 
-              href="https://www.aiwebtools.ai"
+              href="https://aiwebtools.lovable.app/?via=aiwebtools"
               className="hover:text-cyberpunk-primary transition-colors"
               target="_blank"
               rel="noopener noreferrer"
@@ -167,7 +167,7 @@ const Footer: React.FC = () => {
       {/* More AI Tools Button */}
       <div className="absolute bottom-8 right-8">
         <a 
-          href="https://www.aiwebtools.ai"
+          href="https://aiwebtools.lovable.app/?via=aiwebtools"
           className="inline-flex items-center justify-center px-6 py-3 bg-cyberpunk-accent rounded-full text-white font-medium hover:shadow-neon-accent transition-shadow"
           target="_blank"
           rel="noopener noreferrer"
