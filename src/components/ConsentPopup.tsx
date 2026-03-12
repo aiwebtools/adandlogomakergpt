@@ -51,7 +51,7 @@ const ConsentPopup: React.FC = () => {
             <li>You have the legal right to use any logos, trademarks, or other content you upload or request to be incorporated into advertisements.</li>
             <li>You are responsible for reviewing and ensuring the legality and appropriateness of all generated advertisements before use.</li>
             <li>You acknowledge that AI WEB TOOLS LLC is not liable for any direct, indirect, or consequential damages resulting from your use of AD MAKER GPT.</li>
-            <li>You agree to our <a href="https://aiwebtools.ai/terms-of-services" className="text-cyberpunk-secondary hover:underline" target="_blank" rel="noopener noreferrer">Terms of Service</a> and <a href="https://openai.com/policies/privacy-policy/" className="text-cyberpunk-secondary hover:underline" target="_blank" rel="noopener noreferrer">Privacy Policy</a>.</li>
+            <li>You agree to our <a href="https://aiwebtools.lovable.app/terms-of-services?via=aiwebtools" className="text-cyberpunk-secondary hover:underline" target="_blank" rel="noopener noreferrer">Terms of Service</a> and <a href="https://openai.com/policies/privacy-policy/" className="text-cyberpunk-secondary hover:underline" target="_blank" rel="noopener noreferrer">Privacy Policy</a>.</li>
           </ul>
         </div>
         

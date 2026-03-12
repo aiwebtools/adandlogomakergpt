@@ -160,7 +160,7 @@ const Header: React.FC = () => {
             Disclaimer
           </a>
           <a 
-            href="https://www.aiwebtools.ai" 
+            href="https://aiwebtools.lovable.app/?via=aiwebtools" 
             className="text-cyberpunk-foreground hover:text-cyberpunk-primary transition-colors py-2"
             target="_blank"
             rel="noopener noreferrer"

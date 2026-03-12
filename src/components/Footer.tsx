@@ -104,7 +104,7 @@ const Footer: React.FC = () => {
               </li>
               <li>
                 <a 
-                  href="https://aiwebtools.lovable.app/disclaimers"
+                  href="https://aiwebtools.lovable.app/disclaimers?via=aiwebtools"
                   className="text-cyberpunk-foreground hover:text-cyberpunk-secondary transition-colors"
                   target="_blank"
                   rel="noopener noreferrer"

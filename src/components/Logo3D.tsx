@@ -74,7 +74,7 @@ const Logo3D: React.FC = () => {
                 AD MAKER <span className="neon-text-accent">& LOGO</span>
               </h1>
               <p className="text-[10px] md:text-xs text-cyberpunk-secondary/80">
-                by <a href="https://www.aiwebtools.ai" className="hover:text-cyberpunk-primary transition-colors">AiWebTools.Ai</a>
+                by <a href="https://aiwebtools.lovable.app/?via=aiwebtools" className="hover:text-cyberpunk-primary transition-colors" target="_blank" rel="noopener noreferrer">AiWebTools.Ai</a>
               </p>
             </div>
           </div>
