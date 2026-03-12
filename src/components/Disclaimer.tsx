@@ -56,7 +56,7 @@ const Disclaimer: React.FC = () => {
             </p>
             
             <p>
-              <strong>User Agreement:</strong> By accessing and using AD MAKER GPT, you agree to be bound by the terms of this disclaimer as well as our <a href="https://aiwebtools.lovable.app/disclaimers" className="text-cyberpunk-secondary hover:underline" target="_blank" rel="noopener noreferrer">Terms of Service</a> and <a href="https://openai.com/policies/privacy-policy/" className="text-cyberpunk-secondary hover:underline" target="_blank" rel="noopener noreferrer">Privacy Policy</a>.
+              <strong>User Agreement:</strong> By accessing and using AD MAKER GPT, you agree to be bound by the terms of this disclaimer as well as our <a href="https://aiwebtools.lovable.app/disclaimers?via=aiwebtools" className="text-cyberpunk-secondary hover:underline" target="_blank" rel="noopener noreferrer">Terms of Service</a> and <a href="https://openai.com/policies/privacy-policy/" className="text-cyberpunk-secondary hover:underline" target="_blank" rel="noopener noreferrer">Privacy Policy</a>.
             </p>
           </div>
         </div>
